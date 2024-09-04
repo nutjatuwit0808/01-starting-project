@@ -1,0 +1,9 @@
+.mainHeader {
+    width: 100dvw;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
