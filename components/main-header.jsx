@@ -1,14 +1,18 @@
-import React from "react";
-import classes from "./main-header.module.css";
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function MainHeader() {
   return (
-    <>
-      <div className={classes.mainHeader}>
-        <Link href={"/"}>Home</Link>
-        <Link href={"/news"}>News</Link>
+    <header id="main-header">
+      <div id="logo">
+        <Link href="/">NextNews</Link>
       </div>
-    </>
+      <nav>
+        <ul>
+          <li>
+            <Link href="/news">News</Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
 }
